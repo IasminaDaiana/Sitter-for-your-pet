@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "596480618441",
+    "project_id": "sitter-for-your-pet",
+    "storage_bucket": "sitter-for-your-pet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596480618441:android:060eb46bc7f8730bb5c218",
+        "android_client_info": {
+          "package_name": "com.example.loginregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596480618441-ekgsof5tsgmmrksd29ubfn5m636lfvb6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginregister",
+            "certificate_hash": "702006adb34c960ae4754b111d26996c9575709f"
+          }
+        },
+        {
+          "client_id": "596480618441-ja3siur89e0i940qj0iah1i8a0oqf7ca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOMs-1F1Nlr3jFj_LrEC1VPhq5YQEndfI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596480618441-ja3siur89e0i940qj0iah1i8a0oqf7ca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

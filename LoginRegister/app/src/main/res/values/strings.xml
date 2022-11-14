@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sitter-For-Your-Pet</string>
+    <string-array name="roles">
+        <item>Client</item>
+        <item>Sitter</item>
+    </string-array>
+</resources>
