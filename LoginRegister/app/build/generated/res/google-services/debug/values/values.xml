@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">596480618441-ja3siur89e0i940qj0iah1i8a0oqf7ca.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">596480618441</string>
+    <string name="google_api_key" translatable="false">AIzaSyBOMs-1F1Nlr3jFj_LrEC1VPhq5YQEndfI</string>
+    <string name="google_app_id" translatable="false">1:596480618441:android:060eb46bc7f8730bb5c218</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBOMs-1F1Nlr3jFj_LrEC1VPhq5YQEndfI</string>
+    <string name="google_storage_bucket" translatable="false">sitter-for-your-pet.appspot.com</string>
+    <string name="project_id" translatable="false">sitter-for-your-pet</string>
+</resources>
