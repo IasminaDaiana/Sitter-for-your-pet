@@ -4,7 +4,7 @@
             "outputFile": "com.example.loginregister.app-mergeDebugResources-29:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Iasmina\\.gradle\\caches\\transforms-3\\0ad7094de5acf3c3820e1e82ef67c740\\transformed\\appcompat-1.4.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Iasmina\\.gradle\\caches\\transforms-3\\011c1eb27ddac83469ee41b850631808\\transformed\\appcompat-1.4.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

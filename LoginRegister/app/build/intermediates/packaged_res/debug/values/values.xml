@@ -18,7 +18,9 @@
     <string name="google_app_id" translatable="false">1:596480618441:android:060eb46bc7f8730bb5c218</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBOMs-1F1Nlr3jFj_LrEC1VPhq5YQEndfI</string>
     <string name="google_storage_bucket" translatable="false">sitter-for-your-pet.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="project_id" translatable="false">sitter-for-your-pet</string>
+    <string name="title_activity_maps">MapsActivity</string>
     <style name="Theme.LoginRegister" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

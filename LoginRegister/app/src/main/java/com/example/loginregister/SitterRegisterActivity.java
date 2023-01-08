@@ -27,6 +27,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 public class SitterRegisterActivity extends AppCompatActivity {
    private EditText userName,password;
@@ -35,6 +37,8 @@ public class SitterRegisterActivity extends AppCompatActivity {
    private RadioGroup radioGroupRegisterGender;
    private RadioButton radioButtonRegisterGenderSelected;
    private ProgressBar progressBar;
+    String userID;
+   FirebaseFirestore fstore;
     TextView AccountExists;
     Button register;
 
@@ -63,7 +67,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
         AccountExists.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent loginIntent = new Intent(SitterRegisterActivity.this, SitterLoginActivity.class);
+                Intent loginIntent = new Intent(SitterRegisterActivity.this, LoginActivity2.class);
                 startActivity(loginIntent);
             }
         });
@@ -78,6 +82,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
                 String pwd = password.getText().toString();
                 String textMobile = editTextRegisterMobile.getText().toString();
                 String textGender ;
+
                 if(TextUtils.isEmpty(textFullName)){
                     Toast.makeText(SitterRegisterActivity.this, "Please enter your full name",Toast.LENGTH_LONG).show();
                     editTextRegisterFullName.setError("Full name is required");
@@ -127,31 +132,24 @@ public class SitterRegisterActivity extends AppCompatActivity {
 
     private void createNewAccount(String email, String pwd, String textFullName, String textGender, String textMobile ) {
        FirebaseAuth  mAuth= FirebaseAuth.getInstance();
+
             mAuth.createUserWithEmailAndPassword(email,pwd)
                     .addOnCompleteListener(SitterRegisterActivity.this,new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
-                           // Toast.makeText(SitterRegisterActivity.this,"User registered succesfully", Toast.LENGTH_LONG).show();
                             if(task.isSuccessful())//If account creation successful print message and send user to Login Activity
                             {
                                 Toast.makeText(SitterRegisterActivity.this,"User registered succesfully", Toast.LENGTH_LONG).show();
-                             /*   String user_id = mAuth.getCurrentUser().getUid();
-                                DatabaseReference current_user_db = FirebaseDatabase.getInstance().getReference().child("Users").child("Sitter").child(user_id);
-                                current_user_db.setValue(true);
-                                ReadWriteUserDetails writeUserDetails = new ReadWriteUserDetails(textFullName, textGender, textMobile);
-                                current_user_db.setValue(true);*/
-
                                 FirebaseUser firebaseUser = mAuth.getCurrentUser();
-                                ReadWriteUserDetails writeUserDetails = new ReadWriteUserDetails(textFullName, textGender, textMobile);
-
-                                DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("Sitter");
+                                ReadWriteUserDetails writeUserDetails = new ReadWriteUserDetails(textFullName, textGender, textMobile,email, pwd, "sitter");
+                                DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("/Users/Sitter");
                                       referenceProfile.child(firebaseUser.getUid()).setValue(writeUserDetails).addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {
                                         if (task.isSuccessful()) {
                                             firebaseUser.sendEmailVerification();
                                             Toast.makeText(SitterRegisterActivity.this, "Account created successfully", Toast.LENGTH_SHORT).show();
-                                            Intent loginIntent = new Intent(SitterRegisterActivity.this, SitterLoginActivity.class);
+                                            Intent loginIntent = new Intent(SitterRegisterActivity.this, LoginActivity2.class);
                                             loginIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                             startActivity(loginIntent);
                                             finish();
