@@ -120,10 +120,10 @@
             android:layout_marginTop="88dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/email"
-            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintHorizontal_bias="0.39"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.278"
+            app:layout_constraintVertical_bias="0.317"
             app:srcCompat="@drawable/email" />
 
         <ImageView
@@ -132,10 +132,10 @@
             android:layout_height="37dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/password"
-            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintHorizontal_bias="0.439"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6"
-            app:layout_constraintVertical_bias="0.034"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/padlock" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

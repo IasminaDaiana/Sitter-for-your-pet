@@ -4,85 +4,38 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
+public class ClientMenuActivity extends AppCompatActivity  {
+    Button homeButton, myActivity, accountButton, makeProfileButton;
 
-public class ClientMenuActivity extends AppCompatActivity {
-    Button myProfile;
-    TextView textView;
-    TextView personalUserName;
-    private FirebaseAuth authProfile;
-    private String fullName;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_client_menu);
-        myProfile = (Button) findViewById(R.id.buttonMyProfile);
-        textView = (TextView) findViewById(R.id.textView3) ;
+        homeButton = (Button) findViewById(R.id.Homebutton);
+        myActivity = (Button) findViewById(R.id.myActivity);
+        accountButton = (Button) findViewById(R.id.buttonMyProfile);
+        makeProfileButton = (Button) findViewById(R.id.button);
 
 
-
-        authProfile = FirebaseAuth.getInstance();
-        FirebaseUser firebaseUser = authProfile.getCurrentUser();
-
-
-        if(firebaseUser == null){
-            Toast.makeText(ClientMenuActivity.this, "Something went wrong! User's details are not available at the moment", Toast.LENGTH_LONG).show();
-
-        } else {
-            showUserProfile(firebaseUser);
-        }
-
-
-
-
-
-
-        myProfile.setOnClickListener(new View.OnClickListener() {
+        makeProfileButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent profileIntent = new Intent(ClientMenuActivity.this, ClientProfile.class);
+            public void onClick(View v) {
+                Intent profileIntent = new Intent(ClientMenuActivity.this, PetProfile.class);
                 startActivity(profileIntent);
+            }
+        });
+        accountButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent accountIntent = new Intent(ClientMenuActivity.this, AccountActivity.class);
+                startActivity(accountIntent);
             }
         });
     }
 
-    private void showUserProfile(FirebaseUser firebaseUser) {
-        String userID = firebaseUser.getUid();
-        //extracting user reference from Database for "registered users"
-        DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("Client");
-        referenceProfile.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                ReadWriteUserDetails readUserDetails = snapshot.getValue(ReadWriteUserDetails.class);
-
-                if (readUserDetails != null) {
-                    fullName = readUserDetails.fullName;
-
-                    textView.setText("Welcome, " + fullName + "!");
-
-                }
-
-
-
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(ClientMenuActivity.this, "Something went wrong", Toast.LENGTH_LONG).show();
-
-            }
-        }); ;
-    }
 }
