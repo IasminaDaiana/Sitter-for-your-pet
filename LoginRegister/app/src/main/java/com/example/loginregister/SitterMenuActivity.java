@@ -63,7 +63,7 @@ public class SitterMenuActivity extends AppCompatActivity {
     private void showUserProfile(FirebaseUser firebaseUser) {
         String userID = firebaseUser.getUid();
         //extracting user reference from Database for "registered users"
-        DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("Sitter");
+        DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("Users/Sitter");
         referenceProfile.child(userID).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

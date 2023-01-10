@@ -4,20 +4,32 @@
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\pet2.jpg"
     },
     {
-        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-pngs-26:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_sitter_login.xml.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_sitter_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_petty.jpg.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\petty.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_client_menu.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_client_menu.xml"
     },
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -30,6 +42,10 @@
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_pet_profile.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_pet_profile.xml"
     },
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_pets.jpg.flat",
@@ -60,6 +76,14 @@
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_main.xml"
     },
     {
+        "merged": "com.example.loginregister.app-merged_res-31:/layout_activity_account.xml.flat",
+        "source": "com.example.loginregister.app-main-33:/layout/activity_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_profiles.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_profiles.xml"
+    },
+    {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_puppyimage.jpg.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\puppyimage.jpg"
     },
@@ -76,8 +100,24 @@
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_activity.png.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\activity.png"
+    },
+    {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_pet3.jpg.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\pet3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_message.png.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\message.png"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_mess.png.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\mess.png"
     },
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -86,6 +126,10 @@
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_gender.png.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\gender.png"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_account.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_account.xml"
     },
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -100,16 +144,28 @@
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\home.png"
     },
     {
-        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_user.png.flat",
-        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\user.png"
-    },
-    {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_pet5.jpg.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\pet5.jpg"
     },
     {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_user.png.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\user.png"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_client_login.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_client_login.xml"
+    },
+    {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_client_register.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_client_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_login2.xml.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\layout\\activity_login2.xml"
     },
     {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\layout_activity_sitter_profile.xml.flat",
@@ -120,15 +176,11 @@
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_padlock.png.flat",
-        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\padlock.png"
-    },
-    {
         "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.loginregister.app-merged_res-31:/layout_activity_sitter_menu.xml.flat",
-        "source": "com.example.loginregister.app-main-33:/layout/activity_sitter_menu.xml"
+        "merged": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-merged_res-31:\\drawable_padlock.png.flat",
+        "source": "C:\\Users\\Iasmina\\.gradle\\daemon\\7.4\\com.example.loginregister.app-main-33:\\drawable\\padlock.png"
     }
 ]
