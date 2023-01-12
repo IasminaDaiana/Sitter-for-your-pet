@@ -35,6 +35,7 @@ public class ClientRegisterActivity extends AppCompatActivity {
     private EditText editTextRegisterMobile;
     private RadioGroup radioGroupRegisterGender;
     private RadioButton radioButtonRegisterGenderSelected;
+    private EditText editCity;
     private ProgressBar progressBar;
     TextView AccountExists;
     Button register;
@@ -58,13 +59,14 @@ public class ClientRegisterActivity extends AppCompatActivity {
         radioGroupRegisterGender.clearCheck();
         AccountExists = (TextView) findViewById(R.id.Already_link);
         loadingBar = new ProgressDialog(this);
+        editCity = (EditText)findViewById(R.id.editTextTextPersonName7);
 
         register = (Button) findViewById(R.id.submit_btn);
 
         AccountExists.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent loginIntent = new Intent(ClientRegisterActivity.this, LoginActivity.class);
+                Intent loginIntent = new Intent(ClientRegisterActivity.this, ClientLoginActivity.class);
                 startActivity(loginIntent);
             }
         });
@@ -79,6 +81,7 @@ public class ClientRegisterActivity extends AppCompatActivity {
                 String pwd = password.getText().toString();
                 String textMobile = editTextRegisterMobile.getText().toString();
                 String textGender ;
+                String textCity = editCity.getText().toString();
                 if(TextUtils.isEmpty(textFullName)){
                     Toast.makeText(ClientRegisterActivity.this, "Please enter your full name",Toast.LENGTH_LONG).show();
                     editTextRegisterFullName.setError("Full name is required");
@@ -118,7 +121,7 @@ public class ClientRegisterActivity extends AppCompatActivity {
                 else {
                     textGender = radioButtonRegisterGenderSelected.getText().toString();
                     //     progressBar.setVisibility(view.VISIBLE);
-                    createNewAccount(email,pwd,textFullName,textGender, textMobile);
+                    createNewAccount(email,pwd,textFullName,textGender, textMobile, textCity);
 
                 }
 
@@ -126,7 +129,7 @@ public class ClientRegisterActivity extends AppCompatActivity {
         });
     }
 
-    private void createNewAccount(String email, String pwd, String textFullName, String textGender, String textMobile ) {
+    private void createNewAccount(String email, String pwd, String textFullName, String textGender, String textMobile, String textCity ) {
         FirebaseAuth  mAuth= FirebaseAuth.getInstance();
         mAuth.createUserWithEmailAndPassword(email,pwd)
                 .addOnCompleteListener(ClientRegisterActivity.this,new OnCompleteListener<AuthResult>() {
@@ -137,7 +140,7 @@ public class ClientRegisterActivity extends AppCompatActivity {
                         {
                             Toast.makeText(ClientRegisterActivity.this,"User registered succesfully", Toast.LENGTH_LONG).show();
                             FirebaseUser firebaseUser = mAuth.getCurrentUser();
-                            ReadWriteUserDetails writeUserDetails = new ReadWriteUserDetails(textFullName, textGender, textMobile, email, pwd, "client");
+                            ReadWriteUserDetails writeUserDetails = new ReadWriteUserDetails(textFullName, textGender, textMobile, email, pwd, "client",textCity);
 
                             DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("/Users/Client");
                             referenceProfile.child(firebaseUser.getUid()).setValue(writeUserDetails).addOnCompleteListener(new OnCompleteListener<Void>() {
@@ -146,7 +149,7 @@ public class ClientRegisterActivity extends AppCompatActivity {
                                     if (task.isSuccessful()) {
                                         firebaseUser.sendEmailVerification();
                                         Toast.makeText(ClientRegisterActivity.this, "Account created successfully", Toast.LENGTH_SHORT).show();
-                                        Intent loginIntent = new Intent(ClientRegisterActivity.this, LoginActivity.class);
+                                        Intent loginIntent = new Intent(ClientRegisterActivity.this, ClientLoginActivity.class);
                                         loginIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                         startActivity(loginIntent);
                                         finish();

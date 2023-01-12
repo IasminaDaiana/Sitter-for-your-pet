@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginregister.app-mergeDebugResources-29:/values-v17/values-v17.xml",
+            "outputFile": "com.example.loginregister.app-mergeDebugResources-30:/values-v17/values-v17.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iasmina\\.gradle\\caches\\transforms-3\\011c1eb27ddac83469ee41b850631808\\transformed\\appcompat-1.4.1\\res\\values-v17\\values-v17.xml",

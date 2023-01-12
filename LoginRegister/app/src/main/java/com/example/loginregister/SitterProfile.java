@@ -32,9 +32,9 @@ import com.squareup.picasso.Picasso;
 public class SitterProfile extends AppCompatActivity {
     private final int GALLERY_REQ_CODE = 1000;
     ImageView imgGallery;
-    private TextView textViewWelcome, textViewFullName, textViewEmail, textViewGender, textViewMobile;
+    private TextView textViewWelcome, textViewFullName, textViewEmail, textViewGender, textViewMobile, textViewCity;
     private ProgressBar progressBar;
-    private String fullName, email, gender, mobile;
+    private String fullName, email, gender, mobile, city;
     private FirebaseAuth authProfile;
     StorageReference storageReference;
     @Override
@@ -50,6 +50,7 @@ public class SitterProfile extends AppCompatActivity {
          textViewEmail = findViewById(R.id.textView_show_mail);
          textViewGender = findViewById(R.id.textView_show_gender);
          textViewMobile = findViewById(R.id.textView_show_mobile);
+         textViewCity = findViewById(R.id.textView20);
 
          authProfile = FirebaseAuth.getInstance();
          storageReference = FirebaseStorage.getInstance().getReference();
@@ -96,6 +97,7 @@ public class SitterProfile extends AppCompatActivity {
                     email = firebaseUser.getEmail();
                     gender = readUserDetails.gender;
                     mobile = readUserDetails.mobile;
+                    city = readUserDetails.city;
 
 
                     textViewWelcome.setText("Welcome, " + fullName + "!");
@@ -103,6 +105,7 @@ public class SitterProfile extends AppCompatActivity {
                     textViewEmail.setText(email);
                     textViewGender.setText(gender);
                     textViewMobile.setText(mobile);
+                    textViewCity.setText(city);
 
                 }
 

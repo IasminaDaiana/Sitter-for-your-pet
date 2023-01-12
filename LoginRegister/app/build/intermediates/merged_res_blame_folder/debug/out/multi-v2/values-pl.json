@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.loginregister.app-mergeDebugResources-29:/values-pl/values-pl.xml",
+            "outputFile": "com.example.loginregister.app-mergeDebugResources-30:/values-pl/values-pl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Iasmina\\.gradle\\caches\\transforms-3\\87ca8bcc75a018e071e8c6459792eca7\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-pl\\values.xml",

@@ -10,6 +10,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -41,6 +42,7 @@ public class AccountActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private String fullName, email, gender, mobile, petName;
     private FirebaseAuth authProfile, authPetProfile;
+
     StorageReference storageReference;
     FirebaseAuth database;
 
@@ -61,6 +63,7 @@ public class AccountActivity extends AppCompatActivity {
         textViewGender = findViewById(R.id.textView_show_gender);
         textViewMobile = findViewById(R.id.textView_show_mobile);
         textViewPetName= findViewById(R.id.editTextTextPersonName9);
+
         authProfile = FirebaseAuth.getInstance();
         authPetProfile = FirebaseAuth.getInstance();
         storageReference = FirebaseStorage.getInstance().getReference();
@@ -105,6 +108,7 @@ public class AccountActivity extends AppCompatActivity {
         petRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
                 String link = snapshot.getValue(
                         String.class);
                 Picasso.get().load(link).into(imgPet);

@@ -60,6 +60,7 @@ public class PetProfile extends AppCompatActivity implements AdapterView.OnItemS
      RadioButton radioButtonRegisterGenderSelected;
     public static final int CAMERA_PERM_CODE = 101;
     public static final int CAMERA_REQ_CODE = 102;
+    int i=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -122,6 +123,7 @@ public class PetProfile extends AppCompatActivity implements AdapterView.OnItemS
                 String genderChoice = radioButtonRegisterGenderSelected.getText().toString();
                 String Pname = name.getText().toString();
                 FirebaseUser firebaseUser = mAuth.getCurrentUser();
+              //  String[] array = new String[] {"1","2","3","4","5","6"};
 
 
                 DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("/Pets/");
@@ -130,6 +132,7 @@ public class PetProfile extends AppCompatActivity implements AdapterView.OnItemS
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if (task.isSuccessful()) {
+                            //i++;
                             firebaseUser.sendEmailVerification();
                             Toast.makeText(PetProfile.this, "Profile created successfully", Toast.LENGTH_SHORT).show();
                             Intent savedProfile = new Intent(PetProfile.this, Profiles.class);
@@ -152,7 +155,7 @@ public class PetProfile extends AppCompatActivity implements AdapterView.OnItemS
         bitmap.compress(Bitmap.CompressFormat.JPEG, 100, baos);
         byte[] data = baos.toByteArray();
         FirebaseStorage storage = FirebaseStorage.getInstance();
-        StorageReference profileRef = storageReference.child("Pets/"+authProfile.getCurrentUser().getUid()+"profile.jpg");
+        StorageReference profileRef = storageReference.child("Pets/"+authProfile.getCurrentUser().getUid()+"photo/imageUrl/"+"profile.jpg");
 
         UploadTask uploadTask = profileRef.putBytes(data);
 
@@ -198,9 +201,11 @@ public class PetProfile extends AppCompatActivity implements AdapterView.OnItemS
         image.compress(Bitmap.CompressFormat.PNG, 100, baos);
         String imageEncoded = Base64.encodeToString(baos.toByteArray(), Base64.DEFAULT);
         DatabaseReference ref = FirebaseDatabase.getInstance()
-                .getReference("/Pets/photo")
-              //  .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                .child("imageUrl");
+                .getReference("/Pets/")
+           //   .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                .child("photo")
+                        .child("imageUrl");
+
         ref.setValue(imageEncoded);
     }
 

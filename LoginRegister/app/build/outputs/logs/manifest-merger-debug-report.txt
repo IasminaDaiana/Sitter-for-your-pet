@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] C:\Users\Iasmina\.gradle\caches\transforms-3\c4455ba5b45e713c25ed6bdab61d8556\transformed\jetified-viewbinding-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Iasmina\.gradle\caches\transforms-3\7bcd7012a0c086c111e0ce5e8f007f96\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Iasmina\.gradle\caches\transforms-3\1d9bb064dcf68113c4e3245f7c788c48\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
@@ -14,6 +14,7 @@ MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Iasmina\
 MERGED from [com.google.firebase:firebase-storage:20.1.0] C:\Users\Iasmina\.gradle\caches\transforms-3\0e55dbf11802e155f2d6cf89de4bcdda\transformed\jetified-firebase-storage-20.1.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] C:\Users\Iasmina\.gradle\caches\transforms-3\fda6a2b2128fd6bf835bcf61917a7937\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\adb08821531fa76a5ea41136b777bfd6\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\599c30f6656f8bd3c392c2c3c75ff713\transformed\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iasmina\.gradle\caches\transforms-3\b2496a35fb062cb8249419929f373605\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Iasmina\.gradle\caches\transforms-3\4a86caf9614b6b639410a540cc581b22\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\592fc1bf83703f703c393eecf81f20a2\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
@@ -49,7 +50,8 @@ MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Iasmina\.gradle\cach
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Iasmina\.gradle\caches\transforms-3\6e11ba296dd5757ae843a3e36c616271\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\c083345a3755e8ffbf196405545d4091\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\720288b21dc696d862cc073d0f76723c\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\45438136c924fd15c44095611ebc4595\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\8447f9b8a12d1380b3da4cdc5fd2753b\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Iasmina\.gradle\caches\transforms-3\0115aca6b7ac518309fa3ccbb575d713\transformed\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\5a3248ebff4de061cfd230f463079f48\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iasmina\.gradle\caches\transforms-3\d9b37c6decb64e6c0f407e9d1eb2d221\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iasmina\.gradle\caches\transforms-3\98feece855939f070ff09bc584a3bd41\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
@@ -65,22 +67,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Iasmina\.gradle\caches\transfo
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Iasmina\.gradle\caches\transforms-3\155d9ddcf60d6fa5f57c1d50cad16962\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\478b5219e45fbf35abdd773b061fab16\transformed\jetified-protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.50.2] C:\Users\Iasmina\.gradle\caches\transforms-3\d34b826ee3dbd062fedfcc0d8f4ef2b7\transformed\jetified-grpc-android-1.50.2\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
-INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
+INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
 	package
 		INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
 		INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
 		INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-139:12
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:1-147:12
 		INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:2:11-69
@@ -127,7 +129,7 @@ ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\
 	android:name
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:9:22-62
 application
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:11:5-137:19
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:11:5-145:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Iasmina\.gradle\caches\transforms-3\7bcd7012a0c086c111e0ce5e8f007f96\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\Iasmina\.gradle\caches\transforms-3\7bcd7012a0c086c111e0ce5e8f007f96\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Iasmina\.gradle\caches\transforms-3\1d9bb064dcf68113c4e3245f7c788c48\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -144,6 +146,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.4.1] C:\Users\Iasmina\.gr
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] C:\Users\Iasmina\.gradle\caches\transforms-3\fda6a2b2128fd6bf835bcf61917a7937\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\adb08821531fa76a5ea41136b777bfd6\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\adb08821531fa76a5ea41136b777bfd6\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\599c30f6656f8bd3c392c2c3c75ff713\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\599c30f6656f8bd3c392c2c3c75ff713\transformed\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iasmina\.gradle\caches\transforms-3\b2496a35fb062cb8249419929f373605\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iasmina\.gradle\caches\transforms-3\b2496a35fb062cb8249419929f373605\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Iasmina\.gradle\caches\transforms-3\4a86caf9614b6b639410a540cc581b22\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:23:5-20
@@ -164,6 +168,8 @@ MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Iasmina\.gradle\caches\trans
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\69de938a9acabd634b34b90af0ae2754\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\Iasmina\.gradle\caches\transforms-3\a9fe1af45bc29cc4054fc57cd48547e6\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.7.0] C:\Users\Iasmina\.gradle\caches\transforms-3\a9fe1af45bc29cc4054fc57cd48547e6\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\8447f9b8a12d1380b3da4cdc5fd2753b\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\8447f9b8a12d1380b3da4cdc5fd2753b\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iasmina\.gradle\caches\transforms-3\d9b37c6decb64e6c0f407e9d1eb2d221\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iasmina\.gradle\caches\transforms-3\d9b37c6decb64e6c0f407e9d1eb2d221\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Iasmina\.gradle\caches\transforms-3\98feece855939f070ff09bc584a3bd41\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
@@ -190,114 +196,122 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Iasmina\.gradle\ca
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:19:9-51
 	android:dataExtractionRules
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:13:9-65
-activity#com.example.loginregister.AccountActivity
+activity#com.example.loginregister.UserAdapter
 ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:21:9-27:20
 	android:exported
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:22:13-44
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:22:13-40
 meta-data#android.app.lib_name
 ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:24:13-26:36
 	android:value
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:26:17-33
 	android:name
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:25:17-52
-activity#com.example.loginregister.Profiles
+activity#com.example.loginregister.MatchProfiles
 ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:28:9-34:20
 	android:exported
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:29:13-37
-activity#com.example.loginregister.PetProfile
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:29:13-42
+activity#com.example.loginregister.AddJobDetails
 ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:35:9-41:20
 	android:exported
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:36:13-39
-activity#com.example.loginregister.LoginActivity2
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:42:9-48:20
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:36:13-42
+activity#com.example.loginregister.AccountActivity
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:42:9-49:20
+	android:parentActivityName
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:45:13-61
 	android:exported
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:43:13-43
-activity#com.example.loginregister.LoginActivity
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:49:9-55:20
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:43:13-44
+activity#com.example.loginregister.Profiles
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:50:9-56:20
 	android:exported
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:52:13-37
+	android:name
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:51:13-37
+activity#com.example.loginregister.PetProfile
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:57:9-63:20
+	android:exported
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:50:13-42
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:58:13-39
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:67:9-69:71
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:75:9-77:71
 	android:value
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:69:13-68
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:77:13-68
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:68:13-58
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:76:13-58
 activity#com.example.loginregister.ClientMenuActivity
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:71:9-77:20
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:79:9-85:20
 	android:exported
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:73:13-37
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:81:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:72:13-47
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:80:13-47
 activity#com.example.loginregister.ClientRegisterActivity
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:78:9-84:20
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:86:9-92:20
 	android:exported
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:80:13-37
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:79:13-51
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:87:13-51
 activity#com.example.loginregister.ClientLoginActivity
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:85:9-92:20
-	android:parentActivityName
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:88:13-55
-	android:exported
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:87:13-37
-	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:86:13-48
-activity#com.example.loginregister.SitterProfile
 ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:93:9-100:20
 	android:parentActivityName
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:96:13-61
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:96:13-55
 	android:exported
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:95:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:94:13-42
-activity#com.example.loginregister.SitterMenuActivity
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:94:13-48
+activity#com.example.loginregister.SitterProfile
 ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:101:9-108:20
+	android:parentActivityName
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:104:13-61
 	android:exported
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:103:13-37
-	android:theme
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:104:13-69
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:102:13-47
-activity#com.example.loginregister.SitterRegisterActivity
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:109:9-115:20
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:102:13-42
+activity#com.example.loginregister.SitterMenuActivity
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:109:9-116:20
 	android:exported
 		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:111:13-37
+	android:theme
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:112:13-69
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:110:13-51
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:110:13-47
+activity#com.example.loginregister.SitterRegisterActivity
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:117:9-123:20
+	android:exported
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:119:13-37
+	android:name
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:118:13-51
 activity#com.example.loginregister.SitterLoginActivity
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:116:9-123:20
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:124:9-131:20
 	android:parentActivityName
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:119:13-55
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:127:13-55
 	android:exported
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:118:13-37
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:126:13-37
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:117:13-48
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:125:13-48
 activity#com.example.loginregister.MainActivity
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:124:9-136:20
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:132:9-144:20
 	android:exported
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:126:13-36
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:134:13-36
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:125:13-41
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:133:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:127:13-131:29
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:135:13-139:29
 action#android.intent.action.MAIN
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:128:17-69
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:136:17-69
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:128:25-66
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:136:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:130:17-77
+ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:138:17-77
 	android:name
-		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:130:27-74
+		ADDED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml:138:27-74
 uses-sdk
 INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\FacultateAn4\ProiectCHS\Sitter-for-your-pet\LoginRegister\app\src\main\AndroidManifest.xml
@@ -322,6 +336,8 @@ MERGED from [com.google.firebase:firebase-firestore:24.4.1] C:\Users\Iasmina\.gr
 MERGED from [com.google.firebase:firebase-firestore:24.4.1] C:\Users\Iasmina\.gradle\caches\transforms-3\fda6a2b2128fd6bf835bcf61917a7937\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\adb08821531fa76a5ea41136b777bfd6\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\adb08821531fa76a5ea41136b777bfd6\transformed\jetified-play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\599c30f6656f8bd3c392c2c3c75ff713\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\599c30f6656f8bd3c392c2c3c75ff713\transformed\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iasmina\.gradle\caches\transforms-3\b2496a35fb062cb8249419929f373605\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Iasmina\.gradle\caches\transforms-3\b2496a35fb062cb8249419929f373605\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] C:\Users\Iasmina\.gradle\caches\transforms-3\4a86caf9614b6b639410a540cc581b22\transformed\jetified-firebase-appcheck-interop-16.1.0\AndroidManifest.xml:18:5-20:41
@@ -392,8 +408,10 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iasmina\.gradle\caches\t
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\c083345a3755e8ffbf196405545d4091\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\720288b21dc696d862cc073d0f76723c\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\Iasmina\.gradle\caches\transforms-3\720288b21dc696d862cc073d0f76723c\transformed\jetified-firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\45438136c924fd15c44095611ebc4595\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\45438136c924fd15c44095611ebc4595\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\8447f9b8a12d1380b3da4cdc5fd2753b\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\Iasmina\.gradle\caches\transforms-3\8447f9b8a12d1380b3da4cdc5fd2753b\transformed\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Iasmina\.gradle\caches\transforms-3\0115aca6b7ac518309fa3ccbb575d713\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\Iasmina\.gradle\caches\transforms-3\0115aca6b7ac518309fa3ccbb575d713\transformed\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\5a3248ebff4de061cfd230f463079f48\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Iasmina\.gradle\caches\transforms-3\5a3248ebff4de061cfd230f463079f48\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Iasmina\.gradle\caches\transforms-3\d9b37c6decb64e6c0f407e9d1eb2d221\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41

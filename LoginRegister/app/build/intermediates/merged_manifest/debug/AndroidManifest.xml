@@ -36,8 +36,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginRegister" >
         <activity
-            android:name="com.example.loginregister.AccountActivity"
+            android:name="com.example.loginregister.UserAdapter"
             android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.loginregister.MatchProfiles"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.loginregister.AddJobDetails"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.example.loginregister.AccountActivity"
+            android:exported="false"
+            android:parentActivityName="com.example.loginregister.ClientMenuActivity" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -51,20 +73,6 @@
         </activity>
         <activity
             android:name="com.example.loginregister.PetProfile"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.example.loginregister.LoginActivity2"
-            android:exported="false" >
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name="com.example.loginregister.LoginActivity"
             android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"

@@ -34,6 +34,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
    private EditText userName,password;
    private EditText editTextRegisterFullName;
    private EditText editTextRegisterMobile;
+   private EditText editCity;
    private RadioGroup radioGroupRegisterGender;
    private RadioButton radioButtonRegisterGenderSelected;
    private ProgressBar progressBar;
@@ -61,13 +62,14 @@ public class SitterRegisterActivity extends AppCompatActivity {
         radioGroupRegisterGender.clearCheck();
         AccountExists = (TextView) findViewById(R.id.Already_link);
         loadingBar = new ProgressDialog(this);
+        editCity = (EditText)findViewById(R.id.editTextTextPersonName7);
 
         register = (Button) findViewById(R.id.submit_btn);
 
         AccountExists.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent loginIntent = new Intent(SitterRegisterActivity.this, LoginActivity2.class);
+                Intent loginIntent = new Intent(SitterRegisterActivity.this, SitterLoginActivity.class);
                 startActivity(loginIntent);
             }
         });
@@ -82,6 +84,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
                 String pwd = password.getText().toString();
                 String textMobile = editTextRegisterMobile.getText().toString();
                 String textGender ;
+                String textCity = editCity.getText().toString();
 
                 if(TextUtils.isEmpty(textFullName)){
                     Toast.makeText(SitterRegisterActivity.this, "Please enter your full name",Toast.LENGTH_LONG).show();
@@ -122,7 +125,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
                 else {
                     textGender = radioButtonRegisterGenderSelected.getText().toString();
                //     progressBar.setVisibility(view.VISIBLE);
-                    createNewAccount(email,pwd,textFullName,textGender, textMobile);
+                    createNewAccount(email,pwd,textFullName,textGender, textMobile,textCity);
 
                 }
 
@@ -130,7 +133,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
         });
     }
 
-    private void createNewAccount(String email, String pwd, String textFullName, String textGender, String textMobile ) {
+    private void createNewAccount(String email, String pwd, String textFullName, String textGender, String textMobile , String textCity) {
        FirebaseAuth  mAuth= FirebaseAuth.getInstance();
 
             mAuth.createUserWithEmailAndPassword(email,pwd)
@@ -141,7 +144,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
                             {
                                 Toast.makeText(SitterRegisterActivity.this,"User registered succesfully", Toast.LENGTH_LONG).show();
                                 FirebaseUser firebaseUser = mAuth.getCurrentUser();
-                                ReadWriteUserDetails writeUserDetails = new ReadWriteUserDetails(textFullName, textGender, textMobile,email, pwd, "sitter");
+                                ReadWriteUserDetails writeUserDetails = new ReadWriteUserDetails(textFullName, textGender, textMobile,email, pwd, "sitter", textCity);
                                 DatabaseReference referenceProfile = FirebaseDatabase.getInstance().getReference("/Users/Sitter");
                                       referenceProfile.child(firebaseUser.getUid()).setValue(writeUserDetails).addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
@@ -149,7 +152,7 @@ public class SitterRegisterActivity extends AppCompatActivity {
                                         if (task.isSuccessful()) {
                                             firebaseUser.sendEmailVerification();
                                             Toast.makeText(SitterRegisterActivity.this, "Account created successfully", Toast.LENGTH_SHORT).show();
-                                            Intent loginIntent = new Intent(SitterRegisterActivity.this, LoginActivity2.class);
+                                            Intent loginIntent = new Intent(SitterRegisterActivity.this, SitterLoginActivity.class);
                                             loginIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                             startActivity(loginIntent);
                                             finish();

@@ -19,8 +19,30 @@
         android:theme="@style/Theme.LoginRegister"
         tools:targetApi="31">
         <activity
-            android:name=".AccountActivity"
+            android:name=".UserAdapter"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MatchProfiles"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AddJobDetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false"
+            android:parentActivityName=".ClientMenuActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -34,20 +56,6 @@
         </activity>
         <activity
             android:name=".PetProfile"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".LoginActivity2"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".LoginActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
