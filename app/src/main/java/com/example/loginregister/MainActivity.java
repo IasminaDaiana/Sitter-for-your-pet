@@ -25,17 +25,21 @@ public class MainActivity extends AppCompatActivity {
         mSitter = (Button) findViewById(R.id.Sitter);
         mClient = (Button) findViewById(R.id.Client);
         mAuth = FirebaseAuth.getInstance();
-        // currentUser = mAuth.getCurrentUser();
 
+        mSitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SitterLoginActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
         mClient.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, ClientLoginActivity.class);
                 startActivity(intent);
-
-
-
 
             }
         });

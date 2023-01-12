@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button4" type="id" />
+    <item name="textView18" type="id" />
+    <item name="imageView15" type="id" />
+    <item name="editTextTextPersonName9" type="id" />
+    <item name="textView13" type="id" />
+    <item name="textView14" type="id" />
+    <item name="button3" type="id" />
+    <item name="click_image" type="id" />
+    <item name="button2" type="id" />
+    <item name="textView11" type="id" />
+    <item name="textView12" type="id" />
+    <item name="editTextTextPersonName6" type="id" />
+    <item name="editTextTextPersonName5" type="id" />
+    <item name="textView10" type="id" />
+    <item name="spinner2" type="id" />
+    <item name="textView9" type="id" />
+    <item name="spinner" type="id" />
+    <item name="textView7" type="id" />
+    <item name="editTextTextPersonName4" type="id" />
+    <item name="textView8" type="id" />
+    <item name="editTextTextPersonName3" type="id" />
+    <item name="radioGroup" type="id" />
+    <item name="textView5" type="id" />
+    <item name="editTextTextPersonName" type="id" />
+    <item name="textView6" type="id" />
+    <item name="radioButton" type="id" />
+    <item name="radioButton2" type="id" />
+    <item name="button5" type="id" />
+    <item name="editTextTextPersonName7" type="id" />
+</resources>

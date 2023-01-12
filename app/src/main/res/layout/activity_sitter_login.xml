@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ClientLoginActivity"
     android:orientation="vertical"
     android:visibility="visible"
+
+
+    tools:context=".SitterLoginActivity"
     >
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -120,7 +121,7 @@
             android:layout_marginTop="88dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/email"
-            app:layout_constraintHorizontal_bias="0.439"
+            app:layout_constraintHorizontal_bias="0.39"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.278"
@@ -132,10 +133,10 @@
             android:layout_height="37dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/password"
-            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintHorizontal_bias="0.439"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView6"
-            app:layout_constraintVertical_bias="0.034"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/padlock" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
